@@ -11,7 +11,7 @@ Pentesting Report
     - Vulnerability types: Cross-Site Scripting(XSS)
     - Tested in version: 4.2
     - Fixed in version: 4.2.13
-  - [ ] GIF Walkthrough: <img src="Authenticated Cross-Site Scripting (XSS).gif" width="250"><br>
+  - [ ] GIF Walkthrough: <img src="Authenticated Cross-Site Scripting (XSS).gif"> 
   - [ ] Steps to recreate: 1) upload a small mp3 file
   						   2) in the description add "Sample mp3 </noscript><script>alert(document.cookie);</script>".
   						   3) Click on view attachment page
