@@ -17,7 +17,7 @@ Pentesting Report
   						   3) Click on view attachment page
   						   4) refresh the page. A XSS attack is generated.  
   - [ ] Affected source code:
-    - [Link 1]: https://core.trac.wordpress.org/browser/branches/4.2/src/wp-admin/includes/media.php
+    - [Link 1](https://core.trac.wordpress.org/browser/branches/4.2/src/wp-admin/includes/media.php)
 
 2. (Required)  
   - [ ] Summary: 
