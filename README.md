@@ -1,8 +1,8 @@
-# Project 7 - WordPress Pentesting
+Project 7 - WordPress Pentesting
 
-Time spent: **X** hours spent in total
+Time spent: 6 hours spent in total
 
-> Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
+> Objective: Find, analyze, recreate, and document five vulnerabilities affecting an old version of WordPress
 
 Pentesting Report
 
@@ -11,7 +11,7 @@ Pentesting Report
     - Vulnerability types: Cross-Site Scripting(XSS)
     - Tested in version: 4.2
     - Fixed in version: 4.2.13
-  - [x] GIF Walkthrough: <img src="Authenticated Cross-Site Scripting (XSS).gif"> 
+  - [x] GIF Walkthrough: <img src="XSS_Authenticated.gif"> 
   - [x] Steps to recreate: 1) upload a small mp3 file
   						   2) in the description add "Sample mp3 </noscript><script>alert(document.cookie);</script>".
   						   3) Click on view attachment page
@@ -43,7 +43,7 @@ Pentesting Report
     - [Preview Theme Function](<a href='/wp-admin/' title="" style="position:absolute;top:0;left:0;width:100%;height:100%;display:block;" onmouseover=alert(document.cookie)//'>Test</a>)
 
 4. (Optional) Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds
-  - [x] Summary: 
+  - [x] Summary: When a youtube link is embed with a Javascript script code, a XSS attack can be generated. 
     - Vulnerability types: Cross-Site Scripting(XSS)
     - Tested in version: 4.2
     - Fixed in version: 4.2.13
@@ -55,16 +55,6 @@ Pentesting Report
   							4) View the created post and new XSS attack is generated.
   - [x] Affected source code: 
     - [Auto Embed Function](https://core.trac.wordpress.org/browser/trunk/src/wp-includes/class-wp-embed.php)
-
-5. (Optional) XSS attack when Large File is Uploaded
-  - [x] Summary: 
-    - Vulnerability types: Cross-Site Scripting(XSS)
-    - Tested in version: 4.2
-    - Fixed in version: 4.2.15
-  - [x] GIF Walkthrough: 
-  - [x] Steps to recreate: 
-  - [x] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
 
 Assets
 
